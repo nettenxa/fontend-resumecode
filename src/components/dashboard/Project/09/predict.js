@@ -50,6 +50,7 @@ class predict extends Component {
       // console.log(this.state.win,"-",this.state.lose)
       return (
         <div>
+          <br></br>
           <h4>{winer}</h4>
           <h4>{loser}</h4>
         </div>
@@ -135,9 +136,7 @@ class predict extends Component {
             <div className="row">
               <div className="col-md-12">
                 <br />
-                <h2 className="text-center">
-                  <b>Predict the Winner</b>
-                </h2>
+                <h2 className="text-center"><b>Predict the Winner</b></h2>
                 <h5 className="text-center">
                   {showOne} VS {showTwo}
                 </h5>
@@ -147,14 +146,15 @@ class predict extends Component {
                   </button>
                 </form>
                 <h1 className="text-center">{this.pythonExec(post)}</h1>
-                <br></br>
-                <div className="center">
-                  {play}
-                  <h5>VS</h5>
-                  {playtwo}
-                </div>
+                
               </div>
+              
             </div>
+            <div className="center">
+                  <div className="flag-image">{play}</div>
+                  <h5>VS</h5>
+                  <div className="flag-image">{playtwo}</div>
+                </div>
           </div>
         </div>
       </div>

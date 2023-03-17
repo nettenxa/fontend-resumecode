@@ -43,7 +43,7 @@ class project_01 extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1>2018</h1>
+              <h1>2020</h1>
               <h5>
                 <b>APAC HPC-AI Competition 2021</b>
                 {/* <br></br>
