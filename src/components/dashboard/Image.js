@@ -5,7 +5,8 @@ import hpc_2 from "./Image/122905494_10224198773222386_4169555480780171494_n.jpg
 import nsc from "./Image/163302744_859034681347680_1540784160584173380_n.jpg";
 import nrct_1 from "./Image/260324704_3859286600841529_4993595969629028283_n.jpg";
 import nrct_2 from "./Image/260880470_1574408639576660_8027272059323680193_naa.png";
-
+import elcare_1 from "./Image/elcare.png";
+import elcare_2 from "./Image/275016410_1641519329532257_480439804642630599_n.png"
 import axios from "axios";
 
 const back = () => {
@@ -64,6 +65,9 @@ class Image extends Component {
               <img src={nrct_2} alt="nrct" /> 
               <h5>2022</h5>
               <h7>AUCC</h7>
+              <br></br>
+              <img src={elcare_1} alt="aucc" /> <img src={elcare_2} alt="aucc" /> 
+              
               <br></br>
             </div>
           </div>

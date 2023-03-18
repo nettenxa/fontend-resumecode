@@ -35,7 +35,7 @@ class project_07 extends Component {
     let teamList;
 
     return (
-      <div className="project_07">
+      <div className="App">
         <button className="btn btn-outline-danger blue btn-left" onClick={back}>
           Back
         </button>

@@ -35,7 +35,7 @@ class project_01 extends Component {
     let teamList;
 
     return (
-      <div className="project_02">
+      <div className="App">
         <button className="btn btn-outline-danger blue btn-left" onClick={back}>
           Back
         </button>
@@ -51,9 +51,9 @@ class project_01 extends Component {
                 International Collegiate Programming Contest at Mahidol
 University
               </h5>
+              {/* <br></br>
               <br></br>
-              <br></br>
-              <br></br>
+              <br></br> */}
 
             </div>
             <img src={ICT} alt="hpc" />

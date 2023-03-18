@@ -44,7 +44,7 @@ class project_09 extends Component {
     }
 
     return (
-      <div className="project_09">
+      <div className="App">
         <button className="btn btn-outline-danger blue btn-left"  onClick={back}>Back</button>
            
         <div className="container">

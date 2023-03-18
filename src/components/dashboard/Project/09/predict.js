@@ -131,7 +131,7 @@ class predict extends Component {
         >
           Back
         </button>
-        <div className="App">
+        {/* <div className="App"> */}
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -156,7 +156,7 @@ class predict extends Component {
                   <div className="flag-image">{playtwo}</div>
                 </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }
