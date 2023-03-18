@@ -124,7 +124,7 @@ class predict extends Component {
     ));
 
     return (
-      <div className="ShowTeamList">
+      <div className="ShowTeamList App">
         <button
           className="btn btn-outline-danger blue btn-left"
           onClick={this.back}
