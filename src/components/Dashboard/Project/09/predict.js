@@ -29,7 +29,7 @@ class predict extends Component {
 
   componentDidMount() {
     axios
-      .get("https://chartreuse-green-caterpillar-robe.cyclic.app/api/teams")
+      .get("http://localhost:3000/api/teams")
       .then((res) => {
         this.setState({
           teams: res.data,
