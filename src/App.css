@@ -1,0 +1,52 @@
+.App {
+  min-height: calc(100vh - 34px);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  /* position: fixed; */
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+.btn-left {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.box {
+  outline: #000000 solid 10px;
+}
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.flag-image {
+  outline: #000000 solid 1px;
+}
+
+img {
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  /* padding: 5px; */
+  width: 400px;
+}
+.center-image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
