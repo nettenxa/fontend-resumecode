@@ -17,7 +17,7 @@ class project_02 extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:3000/api/teams")
+      .get("https://chartreuse-green-caterpillar-robe.cyclic.app/api/teams")
       .then((res) => {
         this.setState({
           teams: res.data,

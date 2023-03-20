@@ -19,7 +19,7 @@ class showTeamDetails extends Component {
   componentDidMount() {
     // // console.log("Print id: " + this.props.match.params.id);
     axios
-      .get("http://localhost:3000/api/teams/" + this.props.match.params.id)
+      .get("https://chartreuse-green-caterpillar-robe.cyclic.app/api/teams/" + this.props.match.params.id)
       .then((res) => {
         // console.log("Print-showTeamDetails-API-response: " + res.data);
         this.setState({
