@@ -8,32 +8,7 @@ const back = () => {
   };
 
 class project_08 extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      teams: [],
-    };
-  }
-
-  componentDidMount() {
-    axios
-      .get("/teams")
-      .then((res) => {
-        this.setState({
-          teams: res.data,
-        });
-        console.log("res", res);
-      })
-      .catch((err) => {
-        console.log("Error from project_08");
-      });
-  }
-
   render() {
-    const team = this.state.teams;
-    // console.log("AA+>",team)
-    let teamList;
-
     return (
         <div className="project_08 App">
         <button className="btn btn-outline-danger blue btn-left"  onClick={back}>Back</button>

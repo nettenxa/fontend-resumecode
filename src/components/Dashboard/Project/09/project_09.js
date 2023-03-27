@@ -17,7 +17,7 @@ class project_09 extends Component {
 
   componentDidMount() {
     axios
-      .get('/teams')
+      .get('https://exuberant-tuna-hosiery.cyclic.app/teams')
       .then(res => {
         this.setState({
           teams: res.data
