@@ -22,7 +22,7 @@ class Image extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:3000/api/teams")
+      .get("/teams")
       .then((res) => {
         this.setState({
           teams: res.data,
