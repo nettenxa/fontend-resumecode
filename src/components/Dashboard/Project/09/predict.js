@@ -82,7 +82,7 @@ class predict extends Component {
       win,
       lose,
     };
-    console.log(res, "res");
+    console.log(res);
     axios
       .post("/predict", res)
       .then((out) => {
